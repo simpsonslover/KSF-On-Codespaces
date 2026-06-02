@@ -12,7 +12,7 @@ chmod +x install.sh
 
 ## Restarting
 The machine will **not** restart after you stop the Codespace. To restart the machine, run:  
-`bash ~/KSF-On-Codespaces/restart.sh`
+`bash /workspaces/KSF-On-Codespaces/restart.sh`
 
 ## Acknowledgements
 * Modified from Blobby Boi's DesktopOnCodespaces.
