@@ -4,6 +4,7 @@
 1. Create a new "Blank" template Github Codespace at https://github.com/codespaces/.
 2. Run:
 ```bash
+cd ~
 git clone https://github.com/eicv-dev/KSF-On-Codespaces
 cd ~/KSF-On-Codespaces
 chmod +x install.sh
@@ -12,7 +13,7 @@ chmod +x install.sh
 
 ## Restarting
 The machine will **not** restart after you stop the Codespace. To restart the machine, run:  
-`bash /workspaces/KSF-On-Codespaces/restart.sh`
+`bash ~/KSF-On-Codespaces/restart.sh`
 
 ## Acknowledgements
 * Modified from Blobby Boi's DesktopOnCodespaces.
